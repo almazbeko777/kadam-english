@@ -1,0 +1,31 @@
+@import url("../src/style/Header.scss");
+@import url("../src/style/Hero.scss");
+@import url("../src/style/Slider.scss");
+@import url("../src/style/Info.scss");
+@import url("../src/style/SliderRes.scss");
+@import url("../src/style/Footer.scss");
+@import url("../src/style/User.scss");
+@import url("../src/style/Platform.scss");
+@import url("../src/style/detail.scss");
+@import url("../src/style/resurs.scss");
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+.active {
+  color: red;
+}
+
+// body {
+//   background-color: rgb(0, 0, 0);
+//   color: white;
+// }
