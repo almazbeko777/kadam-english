@@ -8,7 +8,7 @@ import busu from "../img/busuu-icon-192x192-transparent.png";
 import Slider from "../Slider";
 import Info from "../Info";
 import logos from "../img/_-_e__1_-removebg-preview.png";
-import line from "../img/Дизайн_без_названия-removebg-preview.png";
+// import line from "../img/Дизайн_без_названия-removebg-preview.png";
 import book from "../img/book.png";
 import SliderRes from "../SliderRes";
 import books from "../img/books..png";
@@ -103,7 +103,7 @@ const Hero = () => {
           <img src={duo} alt="img" className="duo" />
           <img src={you} alt="img" className="you" />
           <img src={busu} alt="img" className="busu" />
-          <img src={line} alt="img" className="hero--line" width={300} />
+          {/* <img src={line} alt="img" className="hero--line" width={300} /> */}
           <img src={books} alt="img" className="books" />
           <img src={babell} alt="img" className="babel" />
           <img src={headphones} alt="img" className="headphones" />
