@@ -10,6 +10,7 @@ import User from "./componets/User";
 import Platform from "./componets/platform";
 import CardDetails from "./componets/CardDetails";
 import WebSites from "./componets/webSites";
+import OurInfo from "./componets/OurInfo";
 // import Slider from "./componets/Slider";s
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/platform" element={<Platform />} />
         <Route path="/details" element={<CardDetails />} />
         <Route path="/web" element={<WebSites />} />
+        <Route path="/nas" element={<OurInfo />} />
       </Routes>
       <Footer />
     </div>

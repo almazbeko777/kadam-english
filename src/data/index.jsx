@@ -110,10 +110,30 @@ export const resources = [
     rating: 4,
   },
   {
-    id: 11,
+    id: 12,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6tMwnc1BYXs8sPKl1aqtLl2OxLAsSnoJTnlMCNOE5NLwflMqJHu1JfCohKBLWj1fMyGk&usqp=CAU",
     url: "https://www.youtube.com/@stasyaa.eng1",
     name: "English with Anastasia",
+    type: "Видеоуроки",
+    description:
+      "Этот канал содержит много разнообразных видеоуроков по английскому языку для начинающих и продолжающих. Здесь можно найти как уроки по грамматике и лексике, так и полезные советы по изучению языка.",
+    rating: 4,
+  },
+  {
+    id: 13,
+    img: "https://enggalaxy.com/images/content/youtube-1.jpg",
+    url: "https://www.youtube.com/@englishplaylists",
+    name: "Английский до автоматизма",
+    type: "Видеоуроки",
+    description:
+      "Этот канал содержит много разнообразных видеоуроков по английскому языку для начинающих и продолжающих. Здесь можно найти как уроки по грамматике и лексике, так и полезные советы по изучению языка.",
+    rating: 4,
+  },
+  {
+    id: 14,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnA24mD-CEXF-zxWCscbZz7vE7Lz-Q2fRMQy7_DJbSA&s",
+    url: "https://www.youtube.com/@skyengschool",
+    name: "SkyENG",
     type: "Видеоуроки",
     description:
       "Этот канал содержит много разнообразных видеоуроков по английскому языку для начинающих и продолжающих. Здесь можно найти как уроки по грамматике и лексике, так и полезные советы по изучению языка.",

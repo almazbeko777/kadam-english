@@ -4,6 +4,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 import ter from "../img/24:7.png";
 import pov from "../img/povtor.png";
 import iz from "../img/iz.png";
+import { Link } from "react-router-dom";
 
 const Info = () => {
   return (
@@ -14,16 +15,20 @@ const Info = () => {
         </h2>
         <p>Тилди онлайн платформаларда үйрөнүүнүн негизги себептери</p>
         <div className="info--text__btn">
-          <button className="right">Патформалар</button>
+          <Link to={"/platform"}>
+            <button className="right">Патформалар</button>
+          </Link>
           <div>
-            <div className="left">
-              <div>
-                Ресурстар <div className="left-line"></div>
+            <Link to={"/resurs"}>
+              <div className="left">
+                <div>
+                  Ресурстар <div className="left-line"></div>
+                </div>
+                <div className="liner">
+                  <IoArrowForwardOutline />
+                </div>
               </div>
-              <div className="liner">
-                <IoArrowForwardOutline />
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
